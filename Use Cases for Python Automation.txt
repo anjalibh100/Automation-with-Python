@@ -1,0 +1,57 @@
+Automating Workflows with Python Scripts - The technique of making a process operate automatically.
+Python is used for automation by writing scripts. You can automate repetitive tasks like web scraping, file handling, data extraction etc using Python.
+
+Examples include : 
+1.GUI Automation using Python.
+2. Automatic Text to Speech.
+3. How to Automatically Convert Images to PDF.
+4. How to Automate Playing Random Music.
+5. Reading (and writing) files.
+6. Sending emails.
+7. Web Scraping.
+8. Intercating with an API.
+9. Efficiently downloading thousands of images from the internet.
+10. Google Search automation.
+
+
+------------------------------------------------------------------------------------------------------------
+How to Automate Tasks Using Python?
+Identify the Task. Identify the task that you want to automate. ...
+Break Down the Task. Break down the task into smaller subtasks that can be automated using Python. ...
+Research. ...
+Write the Code. ...
+Test the Code. ...
+Run the Code. ...
+Monitor and Update.
+-----------------------------------------------------------------------------------------------------------
+
+Example 1. GUI and desktop automation using python.
+
+  Module "PyAutoGUI" performs GUI and desktop automation using python. 
+
+  pip install pyautogui # for windows
+
+  Example a: Automating mouse movements 
+  Describe : The function again returns a point object with x and y values that gets the current position of the mouse.
+
+  import pyautogui
+  # returns a point object with 
+  # x and y values
+  print(pyautogui.position()) 
+
+  Example b: The functions don’t return anything but perform the jobs of simulating the typing of a string that is passed inside it. 
+  # used to access time related functions
+  import time 
+  import pyautogui
+
+  # pauses the execution of the program 
+  # for 5 sec
+  time.sleep(5) 
+
+  # types the string passed inside the 
+  # function
+  pyautogui.typewrite("Geeks For Geeks!") 
+
+Example 2. How to do automation to write script for Automatic PDF to CSV Converter.
+
+
